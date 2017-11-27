@@ -1,0 +1,585 @@
+.niks {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 2 ---*/
+
+.niks2 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks2:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks2 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 3 ---*/
+
+.niks3 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks3:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks3 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 4 ---*/
+
+.niks4 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks4:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks4 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 5 ---*/
+
+.niks5 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks5:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks5 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 6 ---*/
+
+.niks6 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks6:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks6 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 7 ---*/
+
+.niks7 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks7:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks7 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 8 ---*/
+
+.niks8 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks8:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks8 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 9 ---*/
+
+.niks9 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks9:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks9 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 10 ---*/
+
+.niks10 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks10:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks10 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 11 ---*/
+
+.niks11 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks11:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks11 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 12 ---*/
+
+.niks12 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks12:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks12 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 13 ---*/
+
+.niks13 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks13:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks13 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 14 ---*/
+
+.niks14 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks14:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks14 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 15 ---*/
+
+.niks15 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks15:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks15 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 16 ---*/
+
+.niks16 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks16:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks16 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 17 ---*/
+
+.niks17 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks17:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks17 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 18 ---*/
+
+.niks18 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks18:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks18 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 19 ---*/
+
+.niks19 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks19:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks19 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 20 ---*/
+
+.niks20 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks20:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks20 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 21 ---*/
+
+.niks21 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks21:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks21 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 22 ---*/
+
+.niks22 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks22:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks22 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 23 ---*/
+
+.niks23 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks23:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks23 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 24 ---*/
+
+.niks24 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks24:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks24 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 25 ---*/
+
+.niks25 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks25:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks25 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 26 ---*/
+
+.niks26 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks26:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks26 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 27 ---*/
+
+.niks27 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks27:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks27 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}
+
+/*--- Number 28 ---*/
+
+.niks28 {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(hart.png);
+}
+
+.niks28:hover {
+    background-image: url(hart_2_hover.png);
+    cursor: pointer;
+}
+
+.niks28 span {
+    display: inline-block;
+    width: 0;
+    height: 32px;
+    background-image: url(hart_2.png);
+}

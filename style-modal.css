@@ -1,0 +1,97 @@
+p {
+    margin-top: 0;
+}
+
+.modaal-gegevens {
+    position: fixed;
+    background-color: white;
+    border: 1px solid black;
+    width: 70%;
+    max-width: 800px;
+    left: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 225px;
+    
+    -webkit-transform: translate(-30%, 0);
+    -ms-transform: translate(-30%, 0);
+    transform: translate(-30%, 0);
+}
+
+.modaal-gegevensV:before {
+    content: "";
+    position: fixed;
+/*    display: none;*/
+    background-color: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.dicht-maker {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -15px;
+    width: 24px;
+    
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.dicht-maker:hover {
+    background: #e6344a; 
+}
+
+@media screen and (max-width: 1080px) {
+    .modaal-gegevens {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .modaal-gegevens {
+        margin-left: 180px; 
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .modaal-gegevens {
+        margin-left: 160px; 
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .modaal-gegevens {
+        margin-left: 140px; 
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .modaal-gegevens {
+        margin-left: 120px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .modaal-gegevens {
+        margin-left: 100px; 
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .modaal-gegevens {
+        margin-left: 80px; 
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .modaal-gegevens {
+        margin-left: 60px; 
+    }
+}

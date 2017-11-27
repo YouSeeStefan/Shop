@@ -1,0 +1,391 @@
+/*-------- Font koppen ----------*/
+
+@font-face {
+    font-family: myFirstFont;
+/*    src: url(Back.ttf);*/
+    src: url(White.otf);
+}
+
+.font {
+    font-family: myFirstFont;
+    margin-left: 5px;
+}
+
+/*-------- Web ----------*/
+
+#mail {
+    width: 500px;
+}
+
+#mail1 {
+    width: 500px;
+}
+
+#mail2 {
+    width: 500px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fefefe;
+}
+
+#map {
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.mid{
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+#gegevens {
+    float: left;
+/*    background: #023859;*/
+/*    color: white;*/
+    margin-right: 20px;
+    margin-bottom: 4px;
+}
+
+.gegevens {
+    float: left;
+/*    background: #023859;*/
+/*    color: white;*/
+    margin-right: 20px;
+    margin-bottom: 4px;
+}
+
+.btn-con {
+    float: none;
+}
+
+.label{
+    font-size: 19px;
+}
+
+.footer-color {
+    color: #e6344a;
+}
+
+.D-none {
+    text-decoration: none;
+}
+
+.text{
+    border: 2px solid #023859;
+    width: auto;
+    margin-right: 10px;
+    font-size: 20px;
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+}
+
+.area{
+    font-size: 20px;
+    resize: none;
+    border: 2px solid #023859;
+     -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    -moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+    box-shadow: inset 2px 2px 2px 0px #dddddd;
+}
+
+.button{
+    float: right;
+    margin-bottom: 10px;
+    background-color: #023859; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.button:hover{
+    background-color: #e6344a; 
+  }
+
+.menu_bar {
+    display: none;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    background: #023859;
+    z-index: 1000;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li:hover {
+    background: #e6344a;
+}
+
+header nav ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav ul li a span {
+    margin-right: 10px;
+}
+
+header nav ul li:hover .children {
+    display: block;
+}
+
+header nav ul li .children {
+    display: none;
+    background: #011826;
+    position: absolute;
+    width: 150%;
+    z-index: 1000;
+}
+
+header nav ul li .children li {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+header nav ul li .children li a {
+    display: block;
+}
+
+header nav ul li .children li a span {
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+header nav ul li .caret {
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+footer {
+    clear: both;
+    background: #023859;
+    padding: 4px 0;
+    text-align: center;
+    max-width: 1000px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+footer small {
+    color: white;
+    font-size: 12px;
+}
+
+#sub-name {
+    clear: both;
+    background: #e6344a;
+    padding: 4px 0;
+    text-align: left;
+    max-width: 1000px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+#sub-name small {
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+
+.sub-name {
+    clear: both;
+    background: #e6344a;
+    padding: 4px 0;
+    text-align: left;
+    max-width: 1000px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.sub-name small {
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+
+#google_maps {
+    clear: both;
+    padding: 4px 0;
+    text-align: left;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+/*-------- Google foto ----------*/
+
+#google_maps {
+    position: relative;
+    height: 400px;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    z-index: -1;
+}
+
+#google_maps > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px;
+    z-index: -1;
+}
+
+#googleM {
+    height: 380px;
+    width: 980px;
+}
+
+/*-------- Tussen balken ----------*/
+
+.sub-name {
+    clear: both;
+    background: #e6344a;
+    padding: 4px 0;
+    text-align: left;
+    max-width: 1000px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.sub-name small {
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+
+/*-------- Menu login ----------*/
+
+.login {
+    float: right;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding-top: 80px;
+    }
+    header nav {
+        max-width: 200px;
+    }
+    .menu_bar {
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: #e6344a;
+    }
+    .menu_bar .bt-menu {
+        display: block;
+        padding: 20px;
+        color: white;
+        overflow: hidden;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .menu_bar span {
+        float: right;
+        font-size: 40px;
+    }
+    header nav {
+        width: 80%;
+        height: calc(100% - 80px);
+        position: fixed;
+        left: 0;
+        margin: 0;
+        overflow: scroll;
+    }
+    header nav ul li {
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+    }
+    header nav ul li:hover .children {
+        display: none;
+    }
+    header nav ul li a {
+        display: block;
+    }
+    header nav ul li .children {
+        width: 100%;
+        position: relative;
+    }
+    header nav ul li .children li a {
+        margin-left: 20px;
+    }
+    header nav ul li .caret {
+        float: right;
+    }
+    .sub-name {
+        margin-top: 10px;
+    }
+    .button { 
+     float: left;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #googleM {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #mail {
+        width: 100%;
+    }
+    #mail1 {
+        width: 100%;
+    }
+    #mail2 {
+        width: 100%;
+    }
+    .login {
+        float: none;
+    }
+}

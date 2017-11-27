@@ -1,0 +1,787 @@
+/*-------- Font koppen ----------*/
+
+@font-face {
+    font-family: myFirstFont;
+/*    src: url(Back.ttf);*/
+    src: url(White.otf);
+}
+
+.font {
+    font-family: myFirstFont;
+    margin-left: 5px;
+}
+
+/*-------- Winkelmandje ----------*/
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+.winkelmandje-inhoud {
+    width: 1000px;
+}
+
+.text-winkel-kop {
+    width: 200px;
+}
+
+.text-kop-mar {
+    margin-right: 50px;
+}
+
+.tr-color {
+    background: #E6E6E6;
+}
+
+.img-width {
+    width: 20px;
+}
+
+.buttonG {
+    float: left;
+/*    background: #023859;*/
+/*    color: white;*/
+    margin-bottom: 4px;
+}
+
+.buttonG2 {
+    float: right;
+/*    background: #023859;*/
+/*    color: white;*/
+    margin-bottom: 4px;
+}
+
+.buttonWinkel {
+    background-color: #e6344a;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonWinkel2 {
+    background-color: #e6344a;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonWinkel:hover {
+    background-color: #023859;
+}
+
+.buttonWinkel2:hover {
+    background-color: #023859;
+}
+
+/*-------- Web ----------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fefefe;
+    max-width: 1903px;
+}
+
+.menu_bar {
+    display: none;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    background: #023859;
+    z-index: 1000;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li:hover {
+    background: #e6344a;
+}
+
+header nav ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav ul li a span {
+    margin-right: 10px;
+}
+
+header nav ul li:hover .children {
+    display: block;
+}
+
+header nav ul li .children {
+    display: none;
+    background: #011826;
+    position: absolute;
+    width: 150%;
+    z-index: 1000;
+}
+
+header nav ul li .children li {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+header nav ul li .children li a {
+    display: block;
+}
+
+header nav ul li .children li a span {
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+header nav ul li .caret {
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.buttonTwitterMail {
+    background-color: #e6344a;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonTwitterMail:hover {
+    background-color: #023859;
+}
+
+/*-------- Options box ----------*/
+
+.options-left {
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.options {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.check {
+    height: 10px;
+    margin-left: 16px;
+}
+
+.options ul li a {
+    color: black;
+}
+
+.options ul li a:hover {
+    color: #e6344a;
+}
+
+#check-1 {
+    margin-bottom: 10px;
+}
+
+#check-3 {
+    margin-bottom: 10px;
+}
+
+#check-5 {
+    margin-bottom: 10px;
+}
+
+/*-------- Products ----------*/
+
+.product-items {
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.product-item {
+    float: left;
+    background: #023859;
+    color: white;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+
+.product-item:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.more a {
+    color: #e6344a;
+    margin-bottom: 10px;
+}
+
+.product-item {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+/*-------- Icons ----------*/
+
+.icon-droplet {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-flag {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-earth {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-hour-glass {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-bookmarks {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-users {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-price-tags {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-leaf {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-IcoMoon {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-truck {
+    float: right;
+    margin-right: 5px;
+}
+
+.icon-heart {
+    float: right;
+    margin-right: 5px;
+}
+
+/*-------- Tussen balken ----------*/
+
+.sub-name {
+    clear: both;
+    background: #e6344a;
+    padding: 4px 0;
+    text-align: left;
+    max-width: 1000px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.sub-name small {
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+
+/*-------- Footer ----------*/
+
+footer {
+    clear: both;
+    background: #023859;
+    padding: 4px 0;
+    text-align: center;
+    max-width: 1000px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+footer small {
+    color: white;
+    font-size: 12px;
+}
+
+.img-product {
+    width: 248px;
+}
+
+.footer-color {
+    color: #e6344a;
+}
+
+.D-none {
+    text-decoration: none;
+}
+
+/*-------- About ----------*/
+
+.about-text {
+    height: 10px;
+}
+
+.about-left {
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.about {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.mid {
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+#gevenens {
+    float: left;
+/*    background: #023859;*/
+/*    color: white;*/
+    margin-bottom: 4px;
+}
+
+.gevenens {
+    float: left;
+/*    background: #023859;*/
+/*    color: white;*/
+    margin-bottom: 4px;
+}
+
+.text-user {
+    width: 480px;
+}
+
+.foto-user {
+    width: 480px;
+    height: 250px;
+}
+
+.foto-R {
+    margin-right: 40px;
+}
+
+.foto-k {
+    margin-right: 40px;
+}
+
+.max-rating {
+    width: 350px;
+}
+
+/*-------- Slider ----------*/
+
+#slideshow {
+    position: relative;
+    height: 400px;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    z-index: -1;
+}
+
+#slideschow {
+    float: left;
+    background: #023859;
+    color: white;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px;
+    z-index: -1;
+}
+
+.slider-img {
+    height: 380px;
+    width: 980px;
+}
+
+/*-------- Fast contact ----------*/
+
+#fast-contact {
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.f-contact {
+    float: left;
+}
+
+.f-contact {
+    background: #e6344a;
+    padding: 4px 0;
+    text-align: left;
+    max-width: 480px;
+    width: 95%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.f-contact small {
+    color: white;
+    margin-left: 4px;
+    font-size: 25px;
+}
+
+.f-contact-left {
+    margin-right: 40px;
+}
+
+.fast-contact-text {
+    background-color: white;
+    float: left;
+}
+
+.margin-text {
+    margin-top: 10px;
+}
+
+.but_fast {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonFast {
+    background-color: #e6344a;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonFast:hover {
+    background-color: lightgray;
+}
+
+/*-------- Hr Vragen ----------*/
+
+.hr-w {
+    width: 1000px;
+}
+
+/*-------- Menu login ----------*/
+
+.login {
+    float: right;
+}
+
+.login-text {
+    height: 10px;
+}
+
+.login-left {
+    text-align: center;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.Clogin {
+    color: red;
+}
+
+.form-center {
+    text-align: center;
+}
+
+/*-------- landings Pagina ----------*/
+
+.landing {
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.langsingsG {
+    float: left;
+/*    background: #023859;*/
+/*    color: white;*/
+    margin-bottom: 20px;
+}
+
+.landings {
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.langsingsGv {
+    float: left;
+/*    background: #023859;*/
+/*    color: white;*/
+    margin-bottom: 4px;
+}
+
+.text-landing {
+    width: 712px;
+}
+
+.text-topdown {
+    width: 300px;
+}
+
+.text-review {
+    width: 350px;
+}
+
+.text-mar {
+    margin-right: 50px;
+}
+
+.text-backcolor {
+    background-color: #023859;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.mid-down {
+    margin-bottom: 200px;
+}
+
+.lu-mar {
+    margin-left: 20px;
+}
+
+/*-------- Media screen ----------*/
+
+@media screen and (max-width: 800px) {
+    body {
+        padding-top: 80px;
+    }
+    header nav {
+        max-width: 200px;
+    }
+    .menu_bar {
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: #e6344a;
+    }
+    .menu_bar .bt-menu {
+        display: block;
+        padding: 20px;
+        color: white;
+        overflow: hidden;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+        position: relative;
+    }
+    .menu_bar span {
+        float: right;
+        font-size: 40px;
+        overflow: hidden;
+    }
+    header nav {
+        width: 80%;
+        height: calc(100% - 80px);
+        position: fixed;
+        left: 0;
+        margin: 0;
+        overflow: scroll;
+    }
+    header nav ul li {
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+    }
+    header nav ul li:hover .children {
+        display: none;
+    }
+    header nav ul li a {
+        display: block;
+    }
+    header nav ul li .children {
+        width: 100%;
+        position: relative;
+    }
+    header nav ul li .children li a {
+        margin-left: 20px;
+    }
+    header nav ul li .caret {
+        float: right;
+    }
+    .sub-name {
+        margin-top: 10px;
+    }
+    .product-item {
+        width: 341px;
+    }
+    .img-product {
+        width: 341px;
+    }
+    .f-contact-left {
+        margin-right: 0;
+    }
+    .f-contact {
+        max-width: 500px;
+        width: 100%;
+    }
+    .top-user {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .slider-img {
+        height: 100%;
+        width: 100%;
+    }
+    .hr-w {
+        width: 100%;
+    }
+    .winkelmandje-inhoud {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .foto-user {
+        width: 100%;
+        height: 250px;
+    }
+    .text-user {
+        width: 100%;
+    }
+    .text-landing {
+        width: 100%;
+    }
+    .foto-R {
+        margin-right: 0px;
+    }
+    .login {
+        float: none;
+    }
+    .foto-width {
+        width: 100%;
+    }
+    .foto-width-user {
+        width: 137%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .btn-winkel {
+        width: 100%;
+    }
+    .buttonG {
+        float: none;
+    }
+    .buttonG2 {
+        float: none;
+    }
+    .buttonWinkel2 {
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .foto-m {
+        width: 100%;
+    }
+    .foto-k {
+        margin-right: 0px;
+    }
+    .foto-l {
+        margin-right: 54px;
+    }
+    .foto-kg {
+        width: 138px;
+    }
+    .text-width {
+        width: 325px;
+    }
+}
